@@ -1,0 +1,20 @@
+{
+  "name": "capstone-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "dev": "nodemon app.js",
+    "prod": "pm2 start app.js "
+  },
+  "keywords": [
+  "nodejs",
+  "express",
+  "mysql"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  "nodemon": "^2.0.22"
+  }
+}
